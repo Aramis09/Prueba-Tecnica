@@ -5,7 +5,7 @@ Toda la aplicación fue hecha con next js, "CSS" puro sin "Sass" e implementando
   
 
 ## Secciones de la pagina 
-***Login: La página empieza por un login donde se tiene que iniciar sesión con una cuenta ya creada. 
+##.##Login: La página empieza por un login donde se tiene que iniciar sesión con una cuenta ya creada. 
 
 const cuenta1 = { 
 email:"grupoASD@gmail.com", 
