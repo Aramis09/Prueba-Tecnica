@@ -1,0 +1,19 @@
+.thColums {
+  width: 30px;
+  padding: 1%;
+  font-size: small;
+}
+.thColums p {
+  cursor: pointer;
+  color: black;
+  font-size:medium;
+  margin-left: 5px;
+}
+.colum{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 15px;
+  font-size: large;
+}

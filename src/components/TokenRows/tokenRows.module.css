@@ -1,0 +1,6 @@
+.tableTr:nth-child(even){
+  background-color: #ddd;
+}
+.tableTr td{
+  padding: 1%;
+}

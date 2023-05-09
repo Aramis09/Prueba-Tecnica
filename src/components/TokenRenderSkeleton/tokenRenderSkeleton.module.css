@@ -1,0 +1,35 @@
+.table {
+  background-color: white;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-block: 10%;
+  border-collapse: collapse;
+  border:solid;
+  border-color: #19A7CE;
+}
+
+.table thead {
+  background-color: #19A7CE;
+  border-bottom:  solid 5px #19A7CE;
+  color: white;
+  padding: 3%;
+  /* color: black; */
+  
+}
+
+
+.table thead tr {
+  padding: 3%;
+}
+.table tbody {
+  font-size:smaller;
+}
+
+
+.table  tr:nth-child(even){
+  background-color: #ddd;
+}
+.tableTr td{
+  padding: 1%;
+}
