@@ -5,7 +5,7 @@ Toda la aplicación fue hecha con next js, "CSS" puro sin "Sass" e implementando
   
 
 ## Secciones de la pagina 
-Login: La página empieza por un login donde se tiene que iniciar sesión con una cuenta ya creada. 
+*Login: La página empieza por un login donde se tiene que iniciar sesión con una cuenta ya creada. 
 
 const cuenta1 = { 
 email:"grupoASD@gmail.com", 
@@ -19,7 +19,7 @@ password:"Aramis09"
 
 } 
 
-Tabla: Una vez iniciada la session se le redirige al usuario a una nueva página donde se visualiza una tabla de criptomonedas.  
+*Tabla: Una vez iniciada la session se le redirige al usuario a una nueva página donde se visualiza una tabla de criptomonedas.  
 Esta solo es accesible si el usuario este logueado. 
 
   
