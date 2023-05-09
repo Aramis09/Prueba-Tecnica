@@ -35,6 +35,6 @@ Esta solo es accesible si el usuario este logueado.
 5) Una vez hecho todo esto ya se puede utilizar de forma local la aplicación web. En la consola usted podrá ver el puerto en el que la aplicación corre, sin embargo, por defecto suele ser www.localhost:3000 
 
 ## Porque la elección del test ?  
-Se elegio ese test porque es el que valida el Login, la funcionalidad verifyDataUserMock es una simulación para poder testear de forma más sencilla la original. La importancia de esto es que si el usuario no puede iniciar sesión no puede acceder a el contenido, por lo que es importante que tenga acceso.  
+Se elegio para testear una funcionalidad que sirve para verificar el login del usuario. La funcionalidad verifyDataUserMock es una simulación para poder testear de forma más sencilla la original (src/services/loginServices.ts). La importancia de esto es que si el usuario no puede iniciar sesión no puede acceder a el contenido, por lo que es importante que tenga acceso.  
 
 Si la temática de la página fuera diferente como un ecommerce, capaz hubiera priorizado más la acción de comprar y no tanto el login, todo depende del objetivo del proyecto. 
