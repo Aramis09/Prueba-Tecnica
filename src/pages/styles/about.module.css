@@ -1,0 +1,14 @@
+.container {
+  background-color: black;
+  color: whitesmoke;
+  margin-block:5% ;
+  margin-inline: 20%;
+}
+.container h4 {
+  color: #19A7CE;
+  font-size: xx-large;
+  margin: 0;
+}
+.container p {
+  font-size: medium;
+}

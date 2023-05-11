@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <header className={styles.header}>
       <nav>
-        <Link href={""} className={styles.link}>
+        <Link href={"/about"} className={styles.link}>
           About
         </Link>
         <Link
