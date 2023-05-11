@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Prueba técnica  
+Esta es una prueba técnica para demostrar los conocimientos de front end sobre: HTML, CSS, TypeScript, React (Next js), Test. 
+Toda la aplicación fue hecha con next js, "CSS" puro sin "Sass" e implementando typeScript en todo menos en los test. 
 
-## Getting Started
+  
 
-First, run the development server:
+## Secciones de la pagina 
+-Login: La página empieza por un login donde se tiene que iniciar sesión con una cuenta ya creada. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+const cuenta1 = { 
+email:"grupoASD@gmail.com", 
+password:"Rjs2022*" 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+} 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+const cuenta2 = { 
+email::"aramisjaime48@gmail.com", 
+password:"Aramis09" 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+} 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-Tabla: Una vez iniciada la session se le redirige al usuario a una nueva página donde se visualiza una tabla de criptomonedas.  
+Esta solo es accesible si el usuario este logueado. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  
+## Como iniciar el proyecto? 
+1) Es necesario que el repositorio se descargue en su computadora. 
 
-## Learn More
+2) Una vez abierta la carpeta en un editor de código, tenemos que ejecutar "npm install" o "yarn install" para la instalación de las dependencias. Es importante estar en la carpeta raíz 
 
-To learn more about Next.js, take a look at the following resources:
+3) Para poder correr el proyecto se usa el comando "npm run dev" o su equivalente en yarn 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4) Para correr los test se tiene ejecutar "npm test " o su equivalente en yarn. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5) Una vez hecho todo esto ya se puede utilizar de forma local la aplicación web. En la consola usted podrá ver el puerto en el que la aplicación corre, sin embargo, por defecto suele ser www.localhost:3000 
 
-## Deploy on Vercel
+## Porque la elección del test ?  
+Se elegio para testear una funcionalidad que sirve para verificar el login del usuario. La funcionalidad verifyDataUserMock es una simulación para poder testear de forma más sencilla la original (src/services/loginServices.ts). La importancia de esto es que si el usuario no puede iniciar sesión no puede acceder a el contenido, por lo que es importante que tenga acceso.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Si la temática de la página fuera diferente como un ecommerce, capaz hubiera priorizado más la acción de comprar y no tanto el login, todo depende del objetivo del proyecto. 
