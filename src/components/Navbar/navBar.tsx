@@ -13,12 +13,16 @@ export default function NavBar() {
     const disconectConfig = { ...accountStatus, verify: false };
     setAccountStatus(disconectConfig);
   };
+  console.log();
 
   return (
     <header className={styles.header}>
       <nav>
-        <Link href={"/about"} className={styles.link}>
-          About
+        <Link
+          href={changeComponent(router.asPath === "/about", "/home", "/about")}
+          className={styles.link}
+        >
+          {changeComponent(router.asPath === "/about", "Lista", "About")}
         </Link>
         <Link
           href={changeComponent(accountStatus.verify, "/home", "/")}
