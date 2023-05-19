@@ -26,7 +26,7 @@ Esta solo es accesible si el usuario este logueado.
 ## Como iniciar el proyecto? 
 1) Es necesario que el repositorio se descargue en su computadora. 
 
-2) Una vez abierta la carpeta en un editor de código, tenemos que ejecutar "npm install" o "yarn install" para la instalación de las dependencias. Es importante estar en la carpeta raíz 
+2) Una vez abierta la carpeta en un editor de código, tenemos que ejecutar "npm install" o "yarn add" para la instalación de las dependencias. Es importante estar en la carpeta raíz 
 
 3) Para poder correr el proyecto se usa el comando "npm run dev" o su equivalente en yarn 
 
